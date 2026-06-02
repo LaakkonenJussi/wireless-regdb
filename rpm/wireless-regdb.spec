@@ -15,8 +15,8 @@ Requires:       systemd >= 190
 BuildRequires:  make
 BuildRequires:  systemd-devel
  
-Provides:       crda = 3.18_2019.03.01-3
-Obsoletes:      crda <= 3.18_2019.03.01-2
+Provides:       crda = 4.14+git6
+Obsoletes:      crda <= 4.14+git5
  
 Source0:        http://www.kernel.org/pub/software/network/wireless-regdb/wireless-regdb-%{version}.tar.xz
 Source1:        setregdomain
